@@ -24,3 +24,4 @@ public class Case5 {
             System.out.println("Этот год "+a +" не високосный");
     }
 }
+
