@@ -17,5 +17,5 @@ public class Case4 {
 
             return a;
         }
-} 
+}
 
