@@ -17,4 +17,4 @@ public class Case1 {
     public static int resSum (int a, int b, int c, int d) {
         return a * (b + (c / d));
     }
-}
+} 
