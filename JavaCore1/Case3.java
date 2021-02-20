@@ -19,4 +19,4 @@ public class Case3 {
             return "отридцательное цисло " +a;
         }
     }
-}
+} 
