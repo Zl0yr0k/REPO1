@@ -1,4 +1,4 @@
-package JavaCore1;
+package gb.java_core1.homeworkL1;
 
 import java.util.Scanner;
 
@@ -18,6 +18,12 @@ public class Case3 {
         } else {
             return "отридцательное цисло " +a;
         }
+
     }
+
+    /*public static boolean forExample (int a) {
+        return a >= 0;
+    }*/
 }
+
 
