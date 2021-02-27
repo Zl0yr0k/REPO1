@@ -1,7 +1,7 @@
-package JavaCore1;
+package gb.java_core1.homeworkL1;
 
 import java.util.Scanner;
-
+//Case5 - а зачем вы столько if-else-if используете? ведь можно только один раз спросить...
 public class Case5 {
     public static void main (String[] args) {
 
@@ -11,17 +11,14 @@ public class Case5 {
         int a = scanner.nextInt();
 
 
-        if (a % 100 == 0 && a % 400 == 0)
+        if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0)
             System.out.println("Этот год "+a +" високосный");
 
-        else if (a % 4 == 0 && a % 100 > 0)
-            System.out.println("Этот год "+a +" високосный");
-
-        else if (a % 100 == 0)
-            System.out.println("Этот год "+a +" не високосный");
-
-        else
+       else
             System.out.println("Этот год "+a +" не високосный");
     }
 }
+
+
+
 
