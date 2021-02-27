@@ -1,7 +1,8 @@
-package JavaCore1;
+package gb.java_core1.homeworkL1;
 
 import java.util.Scanner;
-
+//В первом задини так же нашел ошибку в ходе проверки дз
+//Перегрузка метода. Два метода с разным типом входных данных типо int и float
 public class Case1 {
     public static void main (String[] args) {
         System.out.println("Введите числа a b c d");
@@ -11,11 +12,15 @@ public class Case1 {
         int b=scanner.nextInt();
         int c=scanner.nextInt();
         int d=scanner.nextInt();
-       System.out.println("Результат=" + ((float) (resSum(a,b,c,d)))) ;
+       System.out.println("Результат=" + ( (resSum(a,b,c,d)))) ;
         }
 
-    public static int resSum (int a, int b, int c, int d) {
-        return a * (b + (c / d));
-    }
-}
+    public static float resSum (int a, int b, int c, int d) {
 
+        return a * (b + ((float) c / d));
+    }
+    //public static float resSum (float a, float b, float c, float d) {
+    //
+    //        return a * (b + ((float) c / d));
+    //    }
+}
