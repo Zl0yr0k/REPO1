@@ -1,4 +1,4 @@
-package gb.java_core1;
+package gb.java_core1.homeworkL1;
 
 import java.util.Scanner;
 //Case4 - слишком перемудрили
