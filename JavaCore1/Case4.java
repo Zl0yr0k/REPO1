@@ -1,7 +1,10 @@
-package JavaCore1;
+package gb.java_core1.homeworkL1;
 
 import java.util.Scanner;
-
+//Case4 - слишком перемудрили
+//Обсолюно согласен с вашими коментами и можно было System.out.println ("Привет " + a + " !") ; и тоже было бы правильно
+//Но было интересно применить метод с возвратом, а на такой легкой конструкции более очевидно
+// как это работает¯ \ _ (ツ) _ / ¯
 public class Case4 {
     public static void main (String[] args) {
 
