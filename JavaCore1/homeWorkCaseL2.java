@@ -2,7 +2,7 @@ package gb.java_core1.homeworkL2;
 
 public class homeWorkCaseL2 {
 
-    public static int[] myArray5 = {2, 2, 2, 2, };
+
     public static int somone, sometwo;
 
 
@@ -92,7 +92,7 @@ public class homeWorkCaseL2 {
 
 
         //Шестое задание
-
+        int[] myArray5 = {2, 2, 2, 2 };
         System.out.println("Cумма левой и правой части "+multDev(myArray5));
 
 
